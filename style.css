@@ -24,6 +24,10 @@ body{
 }
 #footer{
   background-color: #233e8b;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 #form{
   padding-top: 5%;
