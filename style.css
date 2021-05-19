@@ -25,3 +25,12 @@ body{
 #footer{
   background-color: #233e8b;
 }
+#form{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 6%;
+  padding-left:6%;
+}
+#Fip{
+  border-radius: 50px 50px 50px 50px;
+}
