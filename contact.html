@@ -21,10 +21,10 @@
             type:'post',
             data:$("#myForm").serializeArray(),
             success: function(){
-              alert("Form Data Submitted :)")
+            //  alert("Form Data Submitted :)")
             },
             error: function(){
-              alert("There was an error :(")
+            //  alert("There was an error :(")
             }
         });
     }
@@ -70,38 +70,52 @@
     </div>
     </section>
     <section id="form">
-      <h2>CONTACT us:</h2>
-          <form id="myForm" >
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">NAME</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" id="Fip" aria-describedby="emailHelp" name="NAME" style="border-radius: 50px 50px 50px 50px;" >
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">E-MAIL</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" id="Fip" aria-describedby="emailHelp"  name="E-MAIL" style="border-radius: 50px 50px 50px 50px;" >
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">PHONE</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" id="Fip" aria-describedby="emailHelp" id="fip" name="PHONE" style="border-radius: 50px 50px 50px 50px;" >
-                </div>
-                <label for="exampleInputPassword1" class="form-label">SERVICE NEEDED</label>
-                <select class="form-select form-select-sm" id="Fip" aria-label=".form-select-sm example"  name="CATEGORY">
-                  <option selected>CATEGORY</option>
-                  <option value="WANT JOB">WANT JOB</option>
-                  <option value="GIVE JOB">GIVE JOB</option>
-                  <option value="CONSULTATION">CONSULTATION</option>
-                </select>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">COMPANY</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1 " style="border-radius: 50px 50px 50px 50px;" aria-describedby="emailHelp" name="COMPANY" style="border-radius: 50px 50px 50px 50px;" >
-                  <div id="emailHelp" class="form-text">IF ANY.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">MESSAGE</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" id="Fip" aria-describedby="emailHelp"  name="MESSAGE" style="border-radius: 50px 50px 50px 50px;" >
-                </div>
-                <button type="submit" class="btn btn-primary" onclick="SubForm()">Submit</button>
-          </form>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>CONTACT us:</h2>
+              <form id="myForm" >
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">NAME</label>
+                      <input class="form-control" type="text" placeholder="Name" aria-label="default input example" id="nam" name="NAME" style="border-radius: 50px 50px 50px 50px;">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">E-MAIL</label>
+                      <input type="text" class="form-control" placeholder="e-mail"id="myemail" name="EMAIL" style="border-radius: 50px 50px 50px 50px;" >
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">PHONE</label>
+                      <input type="text" class="form-control" id="mynum" id="Fip"placeholder="Phone No." aria-describedby="emailHelp" id="fip" name="PHONE" style="border-radius: 50px 50px 50px 50px;" >
+                    </div>
+                    <label for="exampleInputPassword1" class="form-label">SERVICE NEEDED</label>
+                    <select class="form-select" id="cat" aria-label="Default select example"  name="CATEGORY" style="border-radius: 50px 50px 50px 50px; margin-bottom:16px;">
+                      <option selected>CATEGORY</option>
+                      <option value="WANT JOB">WANT JOB</option>
+                      <option value="GIVE JOB">GIVE JOB</option>
+                      <option value="CONSULTATION">CONSULTATION</option>
+                    </select>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">COMPANY</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1 " placeholder="If any."style="border-radius: 50px 50px 50px 50px;" aria-describedby="emailHelp" name="COMPANY" style="border-radius: 50px 50px 50px 50px;" >
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">MESSAGE</label>
+                      <textarea class="form-control" id="myrequired" rows="8" placeholder="Type here."name="MESSAGE" style="border-radius: 50px 50px 50px 50px;" ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id='btn'onclick="SubForm()">Submit</button>
+              </form>
+        </div>
+
+      </div>
+      <script src="bootstrap-validate.js" charset="utf-8"></script>
+      <script>
+        bootstrapValidate('#nam','required:Please enter your name')
+        bootstrapValidate('#myemail','email:enter valid email')
+        bootstrapValidate('#mynum','numeric:enter valid number')
+        bootstrapValidate('#cat','required:please select')
+        bootstrapValidate('#myrequired','required:please enter the reason')
+      </script>
+
 
     </section>
 
