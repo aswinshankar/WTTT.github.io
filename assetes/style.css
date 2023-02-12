@@ -33,7 +33,8 @@ body{
   padding-bottom: 20px;
 
 }
-#fet .a:{text-decoration: none;}
+#fet .a{
+    text-decoration: none;}
 #con{
   background-image: linear-gradient(140deg,#04009a, #77acf1);
   border-radius:175% 80% 0% 0%;
