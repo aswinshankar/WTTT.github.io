@@ -646,3 +646,6 @@ padding-top: 4%;}
       .col-md-6{
         align-items: center;
       }
+      .container{
+        max-width: 100%;
+      }
