@@ -668,3 +668,35 @@ padding-top: 4%;}
         margin-right: auto;
         width: 90%;
       }
+      .cont{
+        padding: 2% 6%;
+        
+      }
+      .cont h1{
+        text-align: center;
+        padding-bottom: 2%;
+        font-family: 'Abel', sans-serif;
+        color: rgb(128, 0, 32);
+        font-size: 5rem;
+
+      }
+      .cont .row h1{
+        text-align: left;
+        padding-bottom: 2%;
+        font-family: 'Abel', sans-serif;
+        color: #800020;
+        font-size: 3.8rem;
+      }
+      .cont .row h4{
+        font-family: 'Abel', sans-serif;
+        font-size: 2rem;
+
+      }
+      .cont .row{
+        padding: 2% 4%;
+        background-color: rgba(255,255,255,0.4);
+    }
+    .conn{
+        background-image: linear-gradient(140deg,#800020, #ab1f1f);
+        border-radius:80% 80% 0% 0%;
+      }
