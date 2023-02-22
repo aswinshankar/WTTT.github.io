@@ -27,6 +27,14 @@ body{
   border-radius: 0 0 175% 90%;
   background-size: cover;
 }
+.carousel-inner .wtt{
+    background-image: linear-gradient(140deg,rgba(99, 99, 99, 0.55), rgba(0, 0, 0, 0.55)),url("icon.png");
+    padding: inherit;
+    border-radius: 0 0 175% 90%;
+    background-repeat: no-repeat;
+    
+
+  }
 #fet{
   text-align: left;
 }
