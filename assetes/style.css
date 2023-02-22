@@ -611,3 +611,50 @@ padding-top: 4%;}
       .container{
         max-width: 100%;
       }
+      @media only screen and (max-width: 800px) {
+        .sin_p{
+            width: 90%;
+        }
+        .pon_p{
+            width: 90%;
+        }
+        .thai_p{
+            width: 90%;
+        }
+        .dub_p{
+            width: 90%;
+        }
+        .pil_p{
+            width: 90%;
+        }
+      }
+      .sin_p{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      .pon_p{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      .thai_p{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      .dub_p{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      .pil_p{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
