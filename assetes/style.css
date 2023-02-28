@@ -15,8 +15,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .carousel h1{
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(255, 0, 0, 0.545);
     padding: 2% 1%;
+    color: #fff;
+    font-size: 3rem;
 }
 .carousel h4{
     font-family: 'Nunito', sans-serif;
@@ -36,6 +38,18 @@ body{
   padding: inherit;
   border-radius: 0 0 175% 90%;
   background-size: cover;
+}
+.carousel-inner .dub{
+    background-image: linear-gradient(140deg,rgba(99, 99, 99, 0.55), rgba(0, 0, 0, 0.55)),url("dubai.jpg");
+    padding: inherit;
+    border-radius: 0 0 175% 90%;
+    background-size: cover;
+  }
+.carousel-inner .thai{
+background-image: linear-gradient(140deg,rgba(99, 99, 99, 0.55), rgba(0, 0, 0, 0.55)),url("thai.jpeg");
+padding: inherit;
+border-radius: 0 0 175% 90%;
+background-size: cover;
 }
 .carousel-inner .wtt{
     background-image: url("icon.png");
