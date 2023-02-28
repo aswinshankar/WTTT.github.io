@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(124, 123, 123, 0.992);
+  background-color: rgba(255, 255, 255, 0.992);
 }
 #title{
   background-image: url("burgundy.jpeg");
@@ -46,18 +46,16 @@ body{
     background-size: cover;
   }
 .carousel-inner .thai{
-background-image: linear-gradient(140deg,rgba(99, 99, 99, 0.55), rgba(0, 0, 0, 0.55)),url("thai.jpeg");
+background-image: linear-gradient(140deg,rgba(99, 99, 99, 0.55), rgba(0, 0, 0, 0.55)),url("thaii.jpeg");
 padding: inherit;
 border-radius: 0 0 175% 90%;
 background-size: cover;
 }
 .carousel-inner .wtt{
-    background-image: url("icon.png");
+    background-image: linear-gradient(140deg,rgba(99, 99, 99, 0.55), rgba(0, 0, 0, 0.55)),url("wttbg.jpg");
     padding: inherit;
     border-radius: 0 0 175% 90%;
-    background-repeat: no-repeat;
-    background-color: rgb(122, 122, 122);
-    
+    background-size: cover;
 
   }
 #fet{
@@ -71,7 +69,7 @@ background-size: cover;
 #fet .a{
     text-decoration: none;}
 #con{
-  background-image: linear-gradient(140deg,#800020, #ab1f1f);
+  background-color: white;
   border-radius:175% 80% 0% 0%;
 }
 #footer{
@@ -698,7 +696,7 @@ padding-top: 4%;}
         text-align: left;
         padding-bottom: 2%;
         font-family: 'Abel', sans-serif;
-        color: #800020;
+        color: white;
         font-size: 3.8rem;
       }
       .cont .row h4{
@@ -708,13 +706,41 @@ padding-top: 4%;}
       }
       .cont .row{
         padding: 2% 4%;
-        background-color: rgba(255,255,255,0.4);
+        background-color:rgba(157, 0, 39, 0.555);
+
     }
     .conn{
-        background-image: linear-gradient(140deg,#800020, #ab1f1f);
+        background-color: #fff;
         border-radius:80% 80% 0% 0%;
       }
       .col a{
         text-decoration: none;
         
+      }
+      #features h1{
+        font-family: 'Great Vibes', cursive;
+        font-size: 5rem;
+      }
+      #img h1{
+        font-family: 'Great Vibes', cursive;
+        font-size: 5rem;
+        color: white;
+      }
+      #con h1{
+        font-family: 'Great Vibes', cursive;
+        font-size: 5rem;
+        color: rgba(128, 0, 32);
+      }
+      #con form{
+        font-size: 2rem;
+        font-family: 'Great Vibes', cursive;
+      }
+      .conn h1{
+        font-family: 'Great Vibes', cursive;
+        font-size: 5rem;
+        color:rgba(128, 0, 32);;
+      }
+      .conn form{
+        font-size: 2rem;
+        font-family: 'Great Vibes', cursive;
       }
