@@ -724,7 +724,7 @@ padding-top: 4%;}
       #img h1{
         font-family: 'Great Vibes', cursive;
         font-size: 5rem;
-        color: white;
+        color: rgba(128, 0, 32);
       }
       #con h1{
         font-family: 'Great Vibes', cursive;
@@ -738,9 +738,44 @@ padding-top: 4%;}
       .conn h1{
         font-family: 'Great Vibes', cursive;
         font-size: 5rem;
-        color:rgba(128, 0, 32);;
+        color:rgba(128, 0, 32);
       }
       .conn form{
         font-size: 2rem;
         font-family: 'Great Vibes', cursive;
+      }
+      .abimg{
+        height: 10%;
+        background-color: rgba(128, 0, 32);
+        padding-top: 2%;
+      }
+      .abimg h1{
+        padding: 5% 20%;
+        text-align: center;
+        font-size: 7rem;
+        font-family: 'Great Vibes', cursive;
+        color:white;
+      }
+      .abtex{
+        padding: 5% 10% ;
+      }
+      .abi{
+        display: flex;
+        justify-content:center ;
+      }
+      .abt{
+        text-align: justify;
+        padding: 0% 10%;
+      }
+      .abt h2{
+            font-size: 3rem;
+            font-family: 'Satisfy', cursive;      }
+      .abt h1{
+        
+            font-size: 5rem;
+            font-family: 'Great Vibes', cursive;
+            color:white;
+      }
+      .abtext .row{
+        background-color: #e3a9a9;
       }
