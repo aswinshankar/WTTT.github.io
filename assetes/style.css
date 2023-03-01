@@ -8,14 +8,14 @@ body{
   background-size: cover;
 }
 #title2{
-  background-image:linear-gradient(140deg,rgb(128, 0, 32), rgb(171, 31, 31));
+  background-image:linear-gradient(140deg,rgb(101, 93, 187), rgb(171, 31, 31));
 }
 .carousel {
   height: 80%;
   font-family: 'Roboto', sans-serif;
 }
 .carousel h1{
-    background-color: rgba(255, 0, 0, 0.545);
+    background-color: rgba(101, 93, 187,0.545);;
     padding: 2% 1%;
     color: #fff;
     font-size: 3rem;
@@ -531,7 +531,7 @@ body {
 }
 
 .footer{
-    background-color: #800020;
+    background-color: rgba(101, 93, 187);;
     text-align: center;
     color: #fff;
     padding:2% 1%;
@@ -546,7 +546,7 @@ body {
 }
 .footer .col{
     padding-top: 1.5%;
-    color: #e3a9a9;
+    color: rgb(191, 172, 226);
 }
 .footer a{
 padding-right: 1%;
@@ -557,7 +557,7 @@ padding-top: 4%;}
     padding-left: 1.5%;
     ;}
 .upt{
-    background-color: rgba(182, 34, 49, 0.608);
+    background-color: rgb(191, 172, 226);;
     padding-top: 3%;
     padding-bottom: 1%;
 }
@@ -602,12 +602,12 @@ padding-top: 4%;}
       }
       .active{
         border-radius: 12px;
-        background-color: rgb(128, 0, 32);
+        background-color: rgb(101, 93, 187);
         color: white!important;
       }
       .nav-link:hover {
         border-radius: 12px;
-        background-color: rgb(128, 0, 32);
+        background-color: rgb(101, 93, 187);
         color: white !important;
        
         
@@ -688,7 +688,7 @@ padding-top: 4%;}
         text-align: center;
         padding-bottom: 2%;
         font-family: 'Abel', sans-serif;
-        color: rgb(128, 0, 32);
+        color: rgb(101, 93, 187);
         font-size: 5rem;
 
       }
@@ -706,7 +706,7 @@ padding-top: 4%;}
       }
       .cont .row{
         padding: 2% 4%;
-        background-color:rgba(157, 0, 39, 0.555);
+        background-color:rgb(191, 172, 226);
 
     }
     .conn{
@@ -718,42 +718,43 @@ padding-top: 4%;}
         
       }
       #features h1{
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Questrial', sans-serif;
         font-size: 5rem;
+        background-color: rgba(101, 93, 187,0.6);
       }
       #img h1{
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Questrial', sans-serif;
         font-size: 5rem;
-        color: rgba(128, 0, 32);
+        color: rgb(101, 93, 187);
       }
       #con h1{
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Questrial', sans-serif;
         font-size: 5rem;
-        color: rgba(128, 0, 32);
+        color: rgb(101, 93, 187);
       }
       #con form{
         font-size: 2rem;
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Questrial', sans-serif;
       }
       .conn h1{
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Questrial', sans-serif;
         font-size: 5rem;
-        color:rgba(128, 0, 32);
+        color:rgb(101, 93, 187);
       }
       .conn form{
         font-size: 2rem;
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Questrial', sans-serif;
       }
       .abimg{
         height: 10%;
-        background-color: rgba(128, 0, 32);
+        background-color: rgb(101, 93, 187);
         padding-top: 2%;
       }
       .abimg h1{
         padding: 5% 20%;
         text-align: center;
         font-size: 7rem;
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Questrial', sans-serif;
         color:white;
       }
       .abtex{
@@ -773,9 +774,12 @@ padding-top: 4%;}
       .abt h1{
         
             font-size: 5rem;
-            font-family: 'Great Vibes', cursive;
+            font-family: 'Questrial', sans-serif;
             color:white;
       }
       .abtext .row{
-        background-color: #e3a9a9;
+        background-color: rgb(191, 172, 226);
+      }
+      .form-row input{
+        font-size: 2rem;
       }
