@@ -572,7 +572,6 @@ padding-top: 4%;}
 }
 .form-control{
         background-color: rgba(255, 255, 255, 0.808);
-        color: white;
         border:none;
      
 }
@@ -781,5 +780,8 @@ padding-top: 4%;}
         background-color: rgb(191, 172, 226);
       }
       .form-row input{
+        font-size: 2rem;
+      }
+      .form-control textarea{
         font-size: 2rem;
       }
